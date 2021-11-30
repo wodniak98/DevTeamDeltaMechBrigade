@@ -1,0 +1,2 @@
+# DevTeamDeltaMechBrigade
+Projekt licencjacki :)
