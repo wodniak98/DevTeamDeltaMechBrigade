@@ -22,8 +22,8 @@ public class Movement : MonoBehaviour
 
     void ProcessInputs()
     {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
+        float moveX = Input.GetAxisRaw("Vertical");
+        float moveY = Input.GetAxisRaw("Horizontal");
 
         moveDirection = new Vector2(moveY, moveX).normalized;
     }
